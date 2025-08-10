@@ -142,10 +142,11 @@ Some operations (like file deletion) may require 2FA verification through the we
 
 The CLI client is built with:
 - Python 3.6+
-- `requests` library for HTTP communications
+- `wget` library for HTTP communications
 - `argparse` for command-line interface
 - `pathlib` for cross-platform file handling
 
 I allow you to change the script however you want to, if you encounter bugs please report them on Discord or via Issues tab on GitHub.
+
 
 
