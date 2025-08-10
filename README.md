@@ -1,6 +1,7 @@
 # DropDrive CLI Client
 
-A command-line interface for the DropDrive file sharing platform. This tool allows you to upload, download, manage, and delete files from the command line.
+A command-line interface for the DropDrive file sharing platform. This tool allows you to upload, manage, and delete files from the command line.
+Note that you cannot download files using this CLI client. This is to prevent massive server download abuse. If it's going to be added, its going to be only for Premium users.
 
 ## Installation
 
@@ -146,4 +147,5 @@ The CLI client is built with:
 - `argparse` for command-line interface
 - `pathlib` for cross-platform file handling
 
-I allow you to change the script however you want to, if you encounter bugs please report them on Discord or via Issue Requests.
+I allow you to change the script however you want to, if you encounter bugs please report them on Discord or via Issues tab on GitHub.
+
